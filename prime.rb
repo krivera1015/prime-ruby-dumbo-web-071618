@@ -12,6 +12,5 @@ def prime?(n)
     (2...n).to_a.all? do |i|
     n % i != 0
     end
-    #return true
   end
 end
