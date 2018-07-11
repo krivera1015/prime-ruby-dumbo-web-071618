@@ -4,8 +4,8 @@
   #if it is not divisible by those then it is prime
 def prime?(n)
   if n % 2 == 0 || n % 3 == 0 || n % 4 == 0 || n% 5 == 0
-    return true
-  else
     return false
+  else
+    return true
   end
 end
