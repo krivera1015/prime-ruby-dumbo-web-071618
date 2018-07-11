@@ -10,7 +10,7 @@ def prime?(n)
   #if n % 2 == 0 || n % 3 == 0 || n % 4 == 0 || n% 5 == 0
     return false
   else
-    (2..n).to_a.all? do |i|
+    (2...n).to_a.all? do |i|
     n % i != 0
     end
     #return true
