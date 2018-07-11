@@ -10,7 +10,7 @@ def prime?(n)
     return false
   else
     (2...n).to_a.all? do |i|
-    n % i != 0
+    n % i !== 0
     end
   end
 end
