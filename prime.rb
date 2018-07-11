@@ -6,7 +6,7 @@
   #.to_a - anything to array
 
 def prime?(n)
-  if n < 1 
+  if n < 1
   #if n % 2 == 0 || n % 3 == 0 || n % 4 == 0 || n% 5 == 0
     return false
   else
