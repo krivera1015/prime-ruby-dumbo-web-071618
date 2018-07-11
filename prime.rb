@@ -9,7 +9,7 @@ def prime?(n)
   if n <= 1
     return false
   else
-    (2...n).to_a.each do |i|
+    (2...n).to_a.each? do |i|
     n % i != 0
     end
   end
